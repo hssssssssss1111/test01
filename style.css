@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    color: #ffd700;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.stock {
+    background: #333;
+    border: 1px solid #555;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.sell {
+    background-color: #f44336;
+}
+
+.sell:hover {
+    background-color: #e53935;
+}
+
+canvas {
+    margin-top: 20px;
+    background-color: #222;
+    border: 1px solid #555;
+}
